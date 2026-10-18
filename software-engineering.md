@@ -8,8 +8,8 @@ A thermostat application originally built for **CS 350: Emerging Systems Archite
 
 ## Original vs. enhanced
 
-- [Original code: Thermostat.py](artifacts/thermostat/original/)
-- [Enhanced code: modular version](artifacts/thermostat/enhanced/)
+- [Original code: Thermostat.py](artifacts/thermostat/original/Thermostat.py)
+- [Enhanced code: modular version](artifacts/thermostat/enhanced/Thermostat)
 
 | | Original | Enhanced |
 |---|---|---|
@@ -28,16 +28,6 @@ A thermostat application originally built for **CS 350: Emerging Systems Archite
 ```python
 # Paste the SensorInterface read method showing the last-known-good fallback.
 ```
-
-## Evidence
-
-Unit test results running without any hardware attached:
-
-![Passing unit test run](assets/thermostat-tests.png)
-
-The refactored code running on the actual Raspberry Pi, with the same display output, button responses, LED behavior, and a clean serial connection as the original:
-
-![Thermostat running on the Raspberry Pi](assets/thermostat-pi.jpg)
 
 ## Narrative
 
