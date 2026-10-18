@@ -2,8 +2,6 @@
 
 [Home](index.html) | [Code Review](code-review.html) | [Software Engineering](software-engineering.html) | [Algorithms](algorithms.html) | [Databases](databases.html)
 
-> **YOUR ONE-LINE POSITIONING STATEMENT HERE**: your target role or specialization, and what sets you apart.
-
 ## Professional Self-Assessment
 
 *(Draft pending. This section will be the formal introduction to the portfolio and must cover each of the following.)*
