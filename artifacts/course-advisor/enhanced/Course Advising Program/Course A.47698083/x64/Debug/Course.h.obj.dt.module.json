@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Course A.47698083\\x64\\Debug\\Course.obj",
+            "outputs": [
+                "Course A.47698083\\x64\\Debug\\Course.h.obj.dt.module.json",
+                "Course A.47698083\\x64\\Debug\\Course.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
