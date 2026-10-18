@@ -43,6 +43,6 @@ The [code review](code-review.html) shows each artifact before any changes were 
 
 ## Contact
 
-- GitHub: [YOUR-GITHUB-URL](https://github.com/)
-- LinkedIn: [YOUR-LINKEDIN-URL](https://www.linkedin.com/)
-- Email: YOUR-EMAIL
+- GitHub: (https://github.com/Trevor-Bell)
+- LinkedIn: (www.linkedin.com/in/trevorjoebell)
+- Email: trevorjoebell@gmail.com
