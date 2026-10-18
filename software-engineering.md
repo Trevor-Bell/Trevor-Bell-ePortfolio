@@ -8,7 +8,7 @@ A thermostat application originally built for **CS 350: Emerging Systems Archite
 
 ## Original vs. enhanced
 
-- [Original code: Thermostat.py](artifacts/thermostat/original/Thermostat.py)
+- [Original code: Thermostat.py](https://github.com/Trevor-Bell/Trevor-Bell-ePortfolio/tree/main/artifacts/thermostat/original)
 - [Enhanced code: modular version](https://github.com/Trevor-Bell/Trevor-Bell-ePortfolio/tree/main/artifacts/thermostat/enhanced/Thermostat)
 
 | | Original | Enhanced |
