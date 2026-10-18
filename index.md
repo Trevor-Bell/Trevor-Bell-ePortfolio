@@ -45,4 +45,4 @@ The [code review](code-review.html) shows each artifact before any changes were 
 
 - GitHub: [Trevor-Bell](https://github.com/Trevor-Bell)
 - LinkedIn: [trevorjoebell](www.linkedin.com/in/trevorjoebell)
-- Email: trevorjoebell@gmail.com
+- Email: [trevorjoebell@gmail.com](mailto:trevorjoebell@gmail.com)
