@@ -4,7 +4,7 @@
 
 ## Video
 
-[Watch the code review on YouTube](PASTE-YOUR-VIDEO-URL-HERE)
+[Watch the code review on YouTube](https://youtu.be/H-ZJf6Opbsw)
 
 This informal code review was recorded before any enhancements were made. It walks through the existing functionality of each artifact, analyzes it using the CS 499 code review checklist, and explains the planned enhancements and the course outcomes they support.
 
