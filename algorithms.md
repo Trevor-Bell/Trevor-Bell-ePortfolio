@@ -85,10 +85,10 @@ Insert time on already-sorted (worst-case) input, original BST vs. AVL tree:
 
 | Courses (n) | Original BST | AVL tree |
 |---|---|---|
-| 50 | (4537) | (1523) |
-| 100 | (19253) | (3546) |
-| 200 | (72628) | (7663) |
-| 300 | (157811) | (12213) |
+| 50 | 4537 | 1523 |
+| 100 | 19253 | 3546 |
+| 200 | 72628 | 7663 |
+| 300 | 157811 | 12213 |
 | 1,000+ | Stack overflow (crash) | Completed without issue |
 
 Across sizes 50 to 300, the BST's insert time grew roughly 25 times slower, while the AVL tree's grew only about 8.5 times slower.
