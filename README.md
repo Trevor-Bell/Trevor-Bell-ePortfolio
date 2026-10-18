@@ -20,7 +20,7 @@ artifacts/
   course-advisor/     original/  enhanced/
   weight-tracker/     original/  enhanced/
 narratives/           Milestone narratives (Word documents)
-assets/               Screenshots and benchmark charts used on the site
+assets/               Originally for assets used on the site...empty
 index.md              Home page and professional self-assessment
 code-review.md        Code review video and script
 software-engineering.md, algorithms.md, databases.md
