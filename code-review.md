@@ -18,7 +18,7 @@ This informal code review was recorded before any enhancements were made. It wal
 
 The full script is below, with the on-screen cues removed. Expand each section to read it.
 
-<details>
+<details markdown="1">
 <summary><strong>Intro</strong></summary>
 
 Hello, my name is Trevor Bell, and this is my Milestone One code review for CS 499. This review will walk through three existing artifacts from earlier in my Computer Science coursework that I will be enhancing for my ePortfolio, one for each of the course's three required categories: Software Design and Engineering, Algorithms and Data Structures, and Databases.
@@ -30,7 +30,7 @@ For each artifact, I'll show the code, walk through specific findings using the 
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Artifact One: Software Design and Engineering - CS 350</strong></summary>
 
 ### Functionality
@@ -90,7 +90,7 @@ I believe this enhancement supports Course Outcome 3: designing and evaluating a
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Artifact Two: Algorithms and Data Structures - CS 300</strong></summary>
 
 ### Functionality
@@ -142,7 +142,7 @@ I believe this enhancement supports Course Outcome 3: designing and evaluating a
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Artifact Three: Databases - CS 360</strong></summary>
 
 ### Functionality
@@ -188,7 +188,7 @@ I believe this enhancement supports Course Outcome 3: designing a solution using
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Outro</strong></summary>
 
 To wrap up: across all three artifacts, the pattern is the same, take something that already works and make it more maintainable, more efficient, or more secure, rather than starting over. The thermostat gets a modular refactor and proper error handling around its hardware calls. The course advising program gets a self-balancing data structure along with some bugs I found while reviewing it. And the weight tracking app gets proper password hashing and a more enforceable database schema.
