@@ -10,9 +10,9 @@ This informal code review was recorded before any enhancements were made. It wal
 
 | Artifact | Category | Origin |
 |---|---|---|
-| [Thermostat](software-engineering.html) | Software Design and Engineering | CS 350 |
-| [Course advisor](algorithms.html) | Algorithms and Data Structures | CS 300 |
-| [Weight Tracker](databases.html) | Databases | CS 360 |
+| [Thermostat](software-engineering.md) | Software Design and Engineering | CS 350 |
+| [Course advisor](algorithms.md) | Algorithms and Data Structures | CS 300 |
+| [Weight Tracker](databases.md) | Databases | CS 360 |
 
 ## Script
 
