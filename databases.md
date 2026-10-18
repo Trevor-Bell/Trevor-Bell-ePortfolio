@@ -9,7 +9,7 @@ An Android weight-tracking app built for **CS 360: Mobile Architecture and Progr
 ## Original vs. enhanced
 
 - [Original code: Weight Tracker](artifacts/weight-tracker/original/CS_360_Final_Project)
-- [Enhanced code: Weight Tracker with salted hashing and enforced schema](artifacts/weight-tracker/enhanced/Weight_Tracker)
+- [Enhanced code: Weight Tracker with salted hashing and enforced schema](https://github.com/Trevor-Bell/Trevor-Bell-ePortfolio/tree/main/artifacts/weight-tracker/enhanced/Weight_Tracker)
 
 | | Original | Enhanced |
 |---|---|---|
