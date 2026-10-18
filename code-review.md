@@ -1,4 +1,4 @@
-# Code Review (Milestone One)
+# Code Review
 
 [Home](index.html) | [Code Review](code-review.html) | [Software Engineering](software-engineering.html) | [Algorithms](algorithms.html) | [Databases](databases.html)
 
