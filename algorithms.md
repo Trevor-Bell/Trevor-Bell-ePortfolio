@@ -9,7 +9,7 @@ A course advising program originally built for **CS 300: Data Structures and Alg
 ## Original vs. enhanced
 
 - [Original code: ProjectTwo.cpp](artifacts/course-advisor/original/ProjectTwo.cpp)
-- [Enhanced code: AVL tree, CourseLoader, Benchmark](artifacts/course-advisor/enhanced/Course_Advising_Program)
+- [Enhanced code: AVL tree, CourseLoader, Benchmark](https://github.com/Trevor-Bell/Trevor-Bell-ePortfolio/tree/main/artifacts/course-advisor/enhanced/Course_Advising_Program)
 
 | | Original | Enhanced |
 |---|---|---|
