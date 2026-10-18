@@ -8,8 +8,8 @@ A course advising program originally built for **CS 300: Data Structures and Alg
 
 ## Original vs. enhanced
 
-- [Original code: ProjectTwo.cpp](artifacts/course-advisor/original/)
-- [Enhanced code: AVL tree, CourseLoader, Benchmark](artifacts/course-advisor/enhanced/)
+- [Original code: ProjectTwo.cpp](artifacts/course-advisor/original/ProjectTwo.cpp)
+- [Enhanced code: AVL tree, CourseLoader, Benchmark](artifacts/course-advisor/enhanced/Course_Advising_Program)
 
 | | Original | Enhanced |
 |---|---|---|
@@ -22,8 +22,61 @@ A course advising program originally built for **CS 300: Data Structures and Alg
 ## Key code
 
 ```cpp
-// Paste the AVL insert function showing height update, balance factor,
-// and the four rotation cases (LL, RR, LR, RL).
+/**
+ * Recursive insert with rebalancing. Follows the same
+ * alphanumeric-ordering logic as the original BST's addNode, 
+ * but returns the root of the subtree it was called on,
+ * so the caller can correctly re-link it.
+ */
+AVLNode* AVLTree::insertNode(AVLNode* node, Course course) {
+    // Standard BST insert: find the correct leaf position
+    if (node == nullptr) {
+        return new AVLNode(course);
+    }
+
+    if (course.courseNum.compare(node->course.courseNum) < 0) {
+        node->left = insertNode(node->left, course);
+    }
+    else if (course.courseNum.compare(node->course.courseNum) > 0) {
+        node->right = insertNode(node->right, course);
+    }
+    else {
+        // Duplicate course number
+        return node;
+    }
+
+    // Update this node's height now that a child may have changed
+    node->height = 1 + max(getHeight(node->left), getHeight(node->right));
+
+    // Check the balance factor and rotate if this node has become
+    // unbalanced as a result of the insert
+    int balance = getBalance(node);
+
+    // Left-left case
+    if (balance > 1 && course.courseNum.compare(node->left->course.courseNum) < 0) {
+        return rotateRight(node);
+    }
+
+    // Right-right case
+    if (balance < -1 && course.courseNum.compare(node->right->course.courseNum) > 0) {
+        return rotateLeft(node);
+    }
+
+    // Left-right case
+    if (balance > 1 && course.courseNum.compare(node->left->course.courseNum) > 0) {
+        node->left = rotateLeft(node->left);
+        return rotateRight(node);
+    }
+
+    // Right-left case
+    if (balance < -1 && course.courseNum.compare(node->right->course.courseNum) < 0) {
+        node->right = rotateRight(node->right);
+        return rotateLeft(node);
+    }
+
+    // Already balanced
+    return node;
+}
 ```
 
 ## Evidence
@@ -32,15 +85,13 @@ Insert time on already-sorted (worst-case) input, original BST vs. AVL tree:
 
 | Courses (n) | Original BST | AVL tree |
 |---|---|---|
-| 50 | (your timing) | (your timing) |
-| 100 | (your timing) | (your timing) |
-| 200 | (your timing) | (your timing) |
-| 300 | (your timing) | (your timing) |
-| 1,000 to 2,000 | Stack overflow (crash) | Completed without issue |
+| 50 | (4537) | (1523) |
+| 100 | (19253) | (3546) |
+| 200 | (72628) | (7663) |
+| 300 | (157811) | (12213) |
+| 1,000+ | Stack overflow (crash) | Completed without issue |
 
 Across sizes 50 to 300, the BST's insert time grew roughly 25 times slower, while the AVL tree's grew only about 8.5 times slower.
-
-![Insert time on sorted (worst-case) input](assets/algorithms-benchmark.png)
 
 ## Narrative
 
